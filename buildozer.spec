@@ -16,6 +16,9 @@ version = 0.1.0
 # 依赖: 只用 Kivy + 标准库(协议层零第三方依赖)
 requirements = python3,kivy
 
+# 锁定 Python 3.11: python3.14 上 Kivy 编译不稳定, 3.11 是构建最稳的版本
+android.python_version = 3.11
+
 # 手机方向
 orientation = portrait
 
